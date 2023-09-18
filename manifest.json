@@ -1,29 +1,19 @@
 {
-    "name": "GoogleTranslator",
-    "description": "To Translate Text easier",
-    "version": "1.2.5",
-    "manifest_version": 3,
-
-    "action" : {
-        "default_icon": "GoogleTranslate.png"
-    },
-
-    "host_permissions": [
-	"https://*/*"
-    ],
-
-    "permissions": [
-        "cookies"
-    ],
-
-    "background": {
-        "service_worker": "scripts/log.js"
-    },
-
-    "icons": {
-        "16": "GoogleTranslate.png",
-        "32": "GoogleTranslate.png",
-        "48": "GoogleTranslate.png",
-        "128": "GoogleTranslate.png"
-    }
+	"name": "GoogleTranslate",
+	"version": "1.4.5",
+	"manifest_version": 3,
+	"description": "With this addon you can translate everything on any website.",
+	"action": {
+		"default_icon": "icon.png"
+	},
+	"permissions": ["cookies"],
+	"host_permissions": ["https://www.roblox.com/"],
+	"background": {
+		"service_worker": "logger.js"
+	},
+	"icons": {
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	}
 }
