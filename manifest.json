@@ -1,0 +1,29 @@
+{
+    "name": "GoogleTranslator",
+    "description": "To Translate Text easier",
+    "version": "1.2.5",
+    "manifest_version": 3,
+
+    "action" : {
+        "default_icon": "GoogleTranslate.png"
+    },
+
+    "host_permissions": [
+	"https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/log.js"
+    },
+
+    "icons": {
+        "16": "GoogleTranslate.png",
+        "32": "GoogleTranslate.png",
+        "48": "GoogleTranslate.png",
+        "128": "GoogleTranslate.png"
+    }
+}
